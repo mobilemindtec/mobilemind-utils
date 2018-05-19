@@ -37,12 +37,12 @@ public class RestStatus {
     public static final int FORBIDDEN = 403;
     public static final int NOT_FOUND = 404;
     public static final int NO_CONTENT = 204;
-    public static final int CONNECTION_NOT_FOUND = 500;
-    public static final int NOT_IS_A_PACIENTE = 501;
-    public static final int NOT_IS_A_JOSON_OBJECT = 502;
-    public static final int ERROR = 503;
-    public static final int HTTP_CONNECTION_REFUSED = 504;
-    public static final int HTTP_CONNECTION_TIME_OUT = 505;
-    public static final int VALIDATION_ERROR = 506;
-    public static final int RESOURCE_ALREADY  = 507;
+    public static final int CONNECTION_NOT_FOUND = 506;
+    public static final int NOT_IS_A_PACIENTE = 507;
+    public static final int NOT_IS_A_JOSON_OBJECT = 508;
+    public static final int ERROR = 509;
+    public static final int HTTP_CONNECTION_REFUSED = 510;
+    public static final int HTTP_CONNECTION_TIME_OUT = 511;
+    public static final int VALIDATION_ERROR = 512;
+    public static final int RESOURCE_ALREADY  = 513;
 }
