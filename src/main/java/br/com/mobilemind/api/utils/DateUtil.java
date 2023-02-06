@@ -319,14 +319,6 @@ public class DateUtil {
         return TIMESTEMP_FORMAT_SS.format(timestamp);
     }
 
-    public static Calendar iso8681ToCalendar(String value) {
-        return javax.xml.bind.DatatypeConverter.parseDateTime(value);
-    }
-
-    public static String calendarToISO8681(Calendar calendar) {
-        return javax.xml.bind.DatatypeConverter.printDateTime(calendar);
-    }
-    
     public static Date sumDays(int amountOfDays, Date date) {
         Calendar c = Calendar.getInstance();
         c.setTime(date);

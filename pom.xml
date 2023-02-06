@@ -4,47 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>br.com.mobilemind.api</groupId>
     <artifactId>mobilemind-utils</artifactId>
-    <version>1.7</version>
+    <version>1.8</version>
     <packaging>jar</packaging>
     
     <name>Mobile Mind - M2</name>
-
-
-    <distributionManagement>
-        <repository>
-            <id>mobile-mind-m2</id>
-            <name>Mobile Mind M2</name>
-            <url>dav:http://nexus.mobilemind.com.br/repository/mobile-mind-m2</url>
-        </repository>  
-    </distributionManagement>
-
-    <repositories>
-        <repository>
-            <id>mobile-mind</id>
-            <name>Mobile Mind</name>
-            <url>http://nexus.mobilemind.com.br/repository/mobile-mind-m2</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>mobile-mind-droid</id>
-            <name>Mobile Mind Android</name>
-            <url>http://nexus.mobilemind.com.br/repository/mobile-mind-droid-m2</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>    
-
     
     <profiles>
         <profile>
@@ -81,8 +44,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>2.3.2</version>
                 <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
+                    <source>1.7</source>
+                    <target>1.7</target>
                 </configuration>
             </plugin>
 
